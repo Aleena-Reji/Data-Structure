@@ -41,4 +41,5 @@ void main(){
         union(u,v);
     }
     dispaly(n);
+
 }
