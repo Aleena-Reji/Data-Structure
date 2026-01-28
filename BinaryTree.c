@@ -81,7 +81,7 @@ void *delete(Node* root, int value) {
     }
     Node* temp = root->right;
     while(temp->left) {
-        temp = temp->left; 
+        temp = temp->left;
     }
     root->data = temp->data;
     root->right = delete(root->right, temp->data);
