@@ -67,7 +67,7 @@ void *delete(Node* root, int value) {
         // Node with only one child or no child
         if (!root->left && !root->right) {
             free(root);
-            return  NULL; 
+            return  NULL;
     }
     if(root-> left && !root->right) {
         Node* temp = root->left;
