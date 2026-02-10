@@ -4,6 +4,7 @@
 int a[20][20],q[20],visited[20],n,f=-1,r=-1;
 void bfs(int v){
     for(int i=0;i<n;i++){
+        
         if(a[v][i]!=0&&visited[i]==0){
             r+=1;
             q[r]=i;
